@@ -2,7 +2,7 @@
 
 使用 California Housing 数据完成一套可复现的回归分析流程，包括数据检查、特征工程、统一预处理、交叉验证、模型选择和独立测试集评估。
 
-[查看完整分析 Notebook](notebooks/california_housing_regression.ipynb)
+[查看完整分析 Notebook](notebooks/california_housing_regression.ipynb) · [查看 Python 版本](housing_regression.py)
 
 ## 项目内容
 
@@ -41,6 +41,7 @@
 california-housing-regression/
 ├── notebooks/
 │   └── california_housing_regression.ipynb
+├── housing_regression.py
 ├── .gitignore
 ├── NOTICE.md
 ├── README.md
@@ -59,6 +60,12 @@ jupyter lab
 ```
 
 打开 `notebooks/california_housing_regression.ipynb`，从上到下运行全部单元格即可。
+
+也可以直接运行 Python 版本：
+
+```bash
+python housing_regression.py
+```
 
 ## 方法边界
 
