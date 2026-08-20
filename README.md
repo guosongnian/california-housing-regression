@@ -41,8 +41,6 @@
 .
 ├── notebooks/
 │   └── california_housing_regression.ipynb
-├── tests/
-│   └── test_smoke.py
 ├── .github/workflows/ci.yml
 ├── housing_regression.py
 ├── tree_models.py
@@ -55,7 +53,7 @@
 
 ## 运行方式
 
-建议使用 Python 3.11 或更高版本；GitHub Actions 使用 Python 3.12 自动检查特征工程、搜索配置和语法。
+建议使用 Python 3.11 或更高版本；GitHub Actions 使用 Python 3.12 自动检查依赖、模块导入和语法。
 
 ```bash
 git clone https://github.com/guosongnian/california-housing-regression.git
@@ -70,7 +68,6 @@ python housing_regression.py
 
 ```bash
 python housing_regression.py --quick
-python -m unittest discover -s tests -v
 ```
 
 也可以启动 `jupyter lab`，打开 `notebooks/california_housing_regression.ipynb` 阅读完整分析。

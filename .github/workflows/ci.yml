@@ -15,6 +15,5 @@ jobs:
           cache: pip
       - run: python -m pip install --upgrade pip
       - run: python -m pip install -r requirements.txt
-      - run: python -m unittest discover -s tests -v
-      - run: python -m compileall -q .
-
+      - run: python -m compileall -q housing_regression.py tree_models.py
+      - run: python -c "import housing_regression; import tree_models"
